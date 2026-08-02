@@ -1,0 +1,6 @@
+[core]
+    remote = remote-s3
+['remote "mystorage"']
+    url = s3://my-dvc-bucket02
+['remote "remote-s3"']
+    url = s3://my-dvc-bucket02
