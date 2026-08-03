@@ -48,7 +48,7 @@ jobs:
         aws s3 cp models/churn_model.pkl s3://churn-model-bucket-cicd-sumeet02/models/churn_model.pkl
         echo "Model pushed to S3 is success"
     
-    - name: Update inference.yaml with S3 model path
+    - name: Update inference.yml with S3 model path
       run: |
         MODEL_URI="s3://churn-model-bucket-cicd-abhi/models/churn_model.pkl"
         sed -i "s|storageUri: .*|storageUri: $MODEL_URI|g" k8s/inference.yaml
