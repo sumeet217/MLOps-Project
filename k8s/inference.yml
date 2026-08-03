@@ -7,4 +7,6 @@ spec:
   predictor:
     serviceAccountName: sa-s3-access
     sklearn:
+
       storageUri: s3://churn-model-bucket-cicd-sumeet/models/churn_model.pkl
+
