@@ -301,7 +301,7 @@ Sync Policy: Automatic
 
 **ArgoCD Application UI:**
 
-![ArgoCD Application Tree](docs/images/argocd-deployment.png)
+![ArgoCD Application Tree](docs/images/argocd.png)
 
 *ArgoCD application showing the resource tree with InferenceService, Pods, Services, and their health status*
 
