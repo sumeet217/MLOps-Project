@@ -51,7 +51,7 @@ jobs:
     - name: Update inference.yml with S3 model path
       run: |
         MODEL_URI="s3://churn-model-bucket-cicd-abhi/models/churn_model.pkl"
-        sed -i "s|storageUri: .*|storageUri: $MODEL_URI|g" k8s/inference.yaml
+        sed -i "s|storageUri: .*|storageUri: $MODEL_URI|g" k8s/inference.yml
     
     - name: Commit updated inference.yaml
       run: |
