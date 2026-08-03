@@ -587,6 +587,5 @@ For questions, suggestions, or support:
 - Open an issue in the repository
 - Reach out via GitHub Discussions
 
----
 
-**Made with ❤️ for the MLOps Community**
+
